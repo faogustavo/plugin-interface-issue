@@ -1,0 +1,14 @@
+[versions]
+composeMultiplatform = "1.8.2"
+kotlin = "2.2.0"
+ideaPlugin = "2.6.0"
+
+idea = "252.23591.19"
+
+[libraries]
+
+[plugins]
+composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }
+composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+ideaPlugin = { id = "org.jetbrains.intellij.platform", version.ref = "ideaPlugin" }
