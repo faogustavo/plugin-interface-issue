@@ -27,4 +27,5 @@ plugins {
 }
 
 include(":composeApp")
+include(":desktop")
 include(":pluginDemo")

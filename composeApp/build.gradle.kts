@@ -5,5 +5,7 @@ plugins {
 }
 
 dependencies {
-    compileOnly("org.jetbrains.jewel:jewel-ui:0.28.0-252.15920")
+    compileOnly(compose.runtime)
+    compileOnly(compose.foundation)
+    compileOnly(compose.ui)
 }

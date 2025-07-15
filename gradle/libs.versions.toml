@@ -3,9 +3,13 @@ composeMultiplatform = "1.8.2"
 kotlin = "2.2.0"
 ideaPlugin = "2.6.0"
 
+jewel = "0.28.0-252.15920"
 idea = "252.23591.19"
 
 [libraries]
+jewel-ui = { group = "org.jetbrains.jewel", name = "jewel-ui", version.ref = "jewel" }
+jewel-intUi = { group = "org.jetbrains.jewel", name = "jewel-int-ui-standalone", version.ref = "jewel" }
+skiko-awt = { module = "org.jetbrains.skiko:skiko-awt", version = "0.9.2" }
 
 [plugins]
 composeMultiplatform = { id = "org.jetbrains.compose", version.ref = "composeMultiplatform" }

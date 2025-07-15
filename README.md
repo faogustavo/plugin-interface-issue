@@ -1,6 +1,6 @@
-# IntelliJ Plugin + Compose issue reproducer
+# Compose issue reproducer
 
-This is a minimal project to reproduce an issue with IntelliJ plugins and Compose for Desktop.
+This is a minimal project to reproduce an issue with Compose.
 
 ### Problem
 
@@ -55,5 +55,6 @@ Caused by: java.lang.AbstractMethodError: Receiver class org.example.project.plu
 ### Running
 
 ```bash
-./gradlew :pluginDemo:runIde
+./gradlew :pluginDemo:runIde # Plugin Demo in IntelliJ IDEA
+./gradlew :desktop:run # JVM Desktop App
 ```
